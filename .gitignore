@@ -1,0 +1,31 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# ide
+/.idea
+
+# compiled output
+/dist
+/tmp
+
+
+*.bmp
+*.cbp
+*.depend
+*.layout
+/bin
+/obj
+/cmake-build-debug
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log*
+yarn-error.log
+testem.log
+
+# ember-try
+.node_modules.ember-try/
+bower.json.ember-try
+package.json.ember-try
